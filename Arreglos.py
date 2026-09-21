@@ -1,3 +1,4 @@
+"""
 #Declarando un arreglo
 numeros=[10,20,30,40,50]
 
@@ -26,6 +27,31 @@ frutas=["manzana", "fresa", "sandia", "mango", "melon", "platano"]
 frutas.pop(4)
 print(frutas)
 
+#Eliminamos una posición usando el nombre
 frutas.remove("manzana")
 print(frutas)
+"""
 
+#*************************
+array = []
+print(array)
+
+n = int(input("Ingrese el tamaño del arreglo: "))
+print(n)
+
+for i in range(n):
+    dato = int(input("Ingrese un número: "))
+    array.append(dato)
+print("Este es el arreglo: ", array)
+
+#*************************
+
+
+n=int (input("Ingrese el tamaño del arreglo2: "))
+array2=[0]*n
+
+for i in range(n):
+    dato= int(input("Ingrese un número: "))
+    array2[i]=dato
+
+print("Este es el arreglo2: ", array2)
